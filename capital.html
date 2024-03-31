@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital hello</title>
+
+</head>
+<style>
+#cap{
+    text-transform: capitalize;
+}
+</style>
+<script>
+function Cap(){
+    var a = document.getElementById("name").value;
+    document.getElementById("cap").value = a;
+}
+</script>
+<body>
+    enter value:<input type="text" id="name"><br><br>
+    <input type="button" value="convert" onclick="Cap()"><br><br>
+    <div id="abc">
+    cap tag:<input type="text" id="cap">
+     </div>
+</body>
+</html>
